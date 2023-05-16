@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sociala.</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/css/icons/favicon.svg" type="image/x-icon">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Plugins -->
+    <link rel="stylesheet" href="assets/css/plugins.min.css">
+    <!-- Css -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    //= include/header.html
+    <main class="main-content">
+        //= include/left-aside.html
+        //= include/right-aside.html
+        <div class="main-container container">
+            <section class="shopping-carousel">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item overflow-hidden active bg-lightblue">
+                            <div class="ci-inner row mx-0 h-100">
+                                <div class="carousel-item__details col-lg-6 p-md-5">
+                                    <div class="ci__details ps-5">
+                                        <span
+                                            class="trending-span d-block text-offline font-xssss fw-700 mt-4 mb-3 text-uppercase">Trending</span>
+                                        <h2 class="carousel-item__header text-grey-900 fw-300">New Arrival Buds <span
+                                                class="fw-700">Collection</span></h2>
+                                        <p class="carousel-item__text text-grey-500 font-xssss fw-500 pe-lg-5">Lorem
+                                            ipsum
+                                            dolor sit amet, consectetur adipisicing
+                                            elit. Odio magni doloremque laborum illum provident ullam, corporis in ipsa
+                                            ea
+                                            nihil enim eius eveniet harum praesentium molestias, nobis quidem animi
+                                            cumque?
+                                        </p>
+                                        <a href=""
+                                            class="shop-now__btn d-inline-block bg-primary-gradiant text-white font-xsssss rounded-5 fw-700 p-2 text-decoration-none text-center text-uppercase">Shop
+                                            Now</a>
+                                    </div>
+                                </div>
+                                <div class="carousel__img-wrapper col-lg-6">
+                                    <img src="http://sociala.uitheme.net/assets/images/pl-22.png"
+                                        class="carousel-item__img d-block w-100 h-100 px-3 p-sm-5" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item overflow-hidden bg-cyan">
+                            <div class="ci-inner row mx-0 h-100">
+                                <div class="carousel-item__details col-lg-6 p-md-5">
+                                    <div class="ci__details ps-4">
+                                        <span
+                                            class="trending-span d-block text-white font-xssss fw-700 mt-4 mb-3 text-uppercase">Trending</span>
+                                        <h2 class="carousel-item__header text-white fw-300">New Arrival Buds <span
+                                                class="fw-700">Collection</span></h2>
+                                        <p class="carousel-item__text text-grey-100 font-xssss fw-500 pe-lg-5">Lorem
+                                            ipsum
+                                            dolor sit amet, consectetur adipisicing
+                                            elit. Odio magni doloremque laborum illum provident ullam, corporis in ipsa
+                                            ea
+                                            nihil enim eius eveniet harum praesentium molestias, nobis quidem animi
+                                            cumque?
+                                        </p>
+                                        <a href=""
+                                            class="shop-now__btn d-inline-block bg-white text-grey-900 font-xsssss rounded-5 fw-700 p-2 text-decoration-none text-center text-uppercase">Shop
+                                            Now</a>
+                                    </div>
+                                </div>
+                                <div class="carousel__img-wrapper col-lg-6">
+                                    <img src="http://sociala.uitheme.net/assets/images/pl-23.png"
+                                        class="carousel-item__img d-block w-100 h-100 px-3 p-sm-5" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-control-prev d-flex h-100 align-items-center">
+                        <button class="carousel-control bg-white position-absolute border-0 p-2" type="button"
+                            data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                            <i class="fa-solid fa-chevron-left font-sm"></i>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                    </div>
+                    <div class="carousel-control-next d-flex h-100 align-items-center">
+                        <button class="carousel-control bg-white position-absolute border-0" type="button"
+                            data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                            <i class="fa-solid fa-chevron-right font-sm"></i>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </section>
+            <section class="shopping-items pb-5 text-center mt-3">
+                <div class="shopping-items__grid pb-3">
+                    <div class="shopping-item bg-white rounded-1 overflow-hidden">
+                        <a href="" class="text-decoration-none">
+                            <div class="si__img-wrapper bg-greylight p-5 overflow-hidden">
+                                <img src="https://source.unsplash.com/random/?technology,item1" alt=""
+                                    class="w-100 h-100 object-fit-cover">
+                            </div>
+                            <div class="si__body">
+                                <h4 class="si__name text-black font-xsss fw-700 mt-3 mb-1">Textured Sleeveless Camisole
+                                </h4>
+                                <span
+                                    class="si__price d-inline-block text-grey-500 font-xsss fw-600 mb-2">&dollar;449</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="shopping-item bg-white rounded-1 overflow-hidden">
+                        <a href="" class="text-decoration-none">
+                            <div class="si__img-wrapper bg-greylight p-5 overflow-hidden">
+                                <img src="https://source.unsplash.com/random/?technology,item2" alt=""
+                                    class="w-100 h-100 object-fit-cover">
+                            </div>
+                            <div class="si__body">
+                                <h4 class="si__name text-black font-xsss fw-700 mt-3 mb-1">Textured Sleeveless Camisole
+                                </h4>
+                                <span
+                                    class="si__price d-inline-block text-grey-500 font-xsss fw-600 mb-2">&dollar;449</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="shopping-item bg-white rounded-1 overflow-hidden">
+                        <a href="" class="text-decoration-none">
+                            <div class="si__img-wrapper bg-greylight p-5 overflow-hidden">
+                                <img src="https://source.unsplash.com/random/?technology,item3" alt=""
+                                    class="w-100 h-100 object-fit-cover">
+                            </div>
+                            <div class="si__body">
+                                <h4 class="si__name text-black font-xsss fw-700 mt-3 mb-1">Textured Sleeveless Camisole
+                                </h4>
+                                <span
+                                    class="si__price d-inline-block text-grey-500 font-xsss fw-600 mb-2">&dollar;449</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="shopping-item bg-white rounded-1 overflow-hidden">
+                        <a href="" class="text-decoration-none">
+                            <div class="si__img-wrapper bg-greylight p-5 overflow-hidden">
+                                <img src="https://source.unsplash.com/random/?technology,item4" alt=""
+                                    class="w-100 h-100 object-fit-cover">
+                            </div>
+                            <div class="si__body">
+                                <h4 class="si__name text-black font-xsss fw-700 mt-3 mb-1">Textured Sleeveless Camisole
+                                </h4>
+                                <span
+                                    class="si__price d-inline-block text-grey-500 font-xsss fw-600 mb-2">&dollar;449</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="shopping-item bg-white rounded-1 overflow-hidden">
+                        <a href="" class="text-decoration-none">
+                            <div class="si__img-wrapper bg-greylight p-5 overflow-hidden">
+                                <img src="https://source.unsplash.com/random/?technology,item5" alt=""
+                                    class="w-100 h-100 object-fit-cover">
+                            </div>
+                            <div class="si__body">
+                                <h4 class="si__name text-black font-xsss fw-700 mt-3 mb-1">Textured Sleeveless Camisole
+                                </h4>
+                                <span
+                                    class="si__price d-inline-block text-grey-500 font-xsss fw-600 mb-2">&dollar;449</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="shopping-item bg-white rounded-1 overflow-hidden">
+                        <a href="" class="text-decoration-none">
+                            <div class="si__img-wrapper bg-greylight p-5 overflow-hidden">
+                                <img src="https://source.unsplash.com/random/?technology,item6" alt=""
+                                    class="w-100 h-100 object-fit-cover">
+                            </div>
+                            <div class="si__body">
+                                <h4 class="si__name text-black font-xsss fw-700 mt-3 mb-1">Textured Sleeveless Camisole
+                                </h4>
+                                <span
+                                    class="si__price d-inline-block text-grey-500 font-xsss fw-600 mb-2">&dollar;449</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="shopping-item bg-white rounded-1 overflow-hidden">
+                        <a href="" class="text-decoration-none">
+                            <div class="si__img-wrapper bg-greylight p-5 overflow-hidden">
+                                <img src="https://source.unsplash.com/random/?technology,item7" alt=""
+                                    class="w-100 h-100 object-fit-cover">
+                            </div>
+                            <div class="si__body">
+                                <h4 class="si__name text-black font-xsss fw-700 mt-3 mb-1">Textured Sleeveless Camisole
+                                </h4>
+                                <span
+                                    class="si__price d-inline-block text-grey-500 font-xsss fw-600 mb-2">&dollar;449</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="shopping-item bg-white rounded-1 overflow-hidden">
+                        <a href="" class="text-decoration-none">
+                            <div class="si__img-wrapper bg-greylight p-5 overflow-hidden">
+                                <img src="https://source.unsplash.com/random/?technology,item86" alt=""
+                                    class="w-100 h-100 object-fit-cover">
+                            </div>
+                            <div class="si__body">
+                                <h4 class="si__name text-black font-xsss fw-700 mt-3 mb-1">Textured Sleeveless Camisole
+                                </h4>
+                                <span
+                                    class="si__price d-inline-block text-grey-500 font-xsss fw-600 mb-2">&dollar;449</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="shopping-item bg-white rounded-1 overflow-hidden">
+                        <a href="" class="text-decoration-none">
+                            <div class="si__img-wrapper bg-greylight p-5 overflow-hidden">
+                                <img src="https://source.unsplash.com/random/?technology,item84" alt=""
+                                    class="w-100 h-100 object-fit-cover">
+                            </div>
+                            <div class="si__body">
+                                <h4 class="si__name text-black font-xsss fw-700 mt-3 mb-1">Textured Sleeveless Camisole
+                                </h4>
+                                <span
+                                    class="si__price d-inline-block text-grey-500 font-xsss fw-600 mb-2">&dollar;449</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="shopping-item bg-white rounded-1 overflow-hidden">
+                        <a href="" class="text-decoration-none">
+                            <div class="si__img-wrapper bg-greylight p-5 overflow-hidden">
+                                <img src="https://source.unsplash.com/random/?technology,item83" alt=""
+                                    class="w-100 h-100 object-fit-cover">
+                            </div>
+                            <div class="si__body">
+                                <h4 class="si__name text-black font-xsss fw-700 mt-3 mb-1">Textured Sleeveless Camisole
+                                </h4>
+                                <span
+                                    class="si__price d-inline-block text-grey-500 font-xsss fw-600 mb-2">&dollar;449</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="shopping-item bg-white rounded-1 overflow-hidden">
+                        <a href="" class="text-decoration-none">
+                            <div class="si__img-wrapper bg-greylight p-5 overflow-hidden">
+                                <img src="https://source.unsplash.com/random/?technology,item28" alt=""
+                                    class="w-100 h-100 object-fit-cover">
+                            </div>
+                            <div class="si__body">
+                                <h4 class="si__name text-black font-xsss fw-700 mt-3 mb-1">Textured Sleeveless Camisole
+                                </h4>
+                                <span
+                                    class="si__price d-inline-block text-grey-500 font-xsss fw-600 mb-2">&dollar;449</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="shopping-item bg-white rounded-1 overflow-hidden">
+                        <a href="" class="text-decoration-none">
+                            <div class="si__img-wrapper bg-greylight p-5 overflow-hidden">
+                                <img src="https://source.unsplash.com/random/?technology,item18" alt=""
+                                    class="w-100 h-100 object-fit-cover">
+                            </div>
+                            <div class="si__body">
+                                <h4 class="si__name text-black font-xsss fw-700 mt-3 mb-1">Textured Sleeveless Camisole
+                                </h4>
+                                <span
+                                    class="si__price d-inline-block text-grey-500 font-xsss fw-600 mb-2">&dollar;449</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <a href=""
+                    class="load-more-btn d-inline-block bg-primary-gradiant text-white font-xssss fw-700 text-decoration-none text-uppercase rounded-1 p-2 mt-3">Load
+                    More</a>
+            </section>
+        </div>
+    </main>
+    //= include/footer.html
+</body>
+
+</html>

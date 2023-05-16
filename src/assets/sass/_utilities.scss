@@ -1,0 +1,197 @@
+// Color
+
+@import "colors";
+
+// Text Color
+
+.text-current {
+    color: $clr-theme;
+}
+
+.text-prime {
+    color: $clr-primary;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.text-online {
+    color: #10d876 !important;
+}
+
+.text-offline {
+    color: #E50202 !important;
+}
+
+.text-recent {
+    color: #FE9431 !important;
+}
+
+.text-grey-100 {
+    color: #f8f9fa !important;
+}
+
+.text-grey-400 {
+    color: #ced4da !important;
+}
+
+.text-grey-500 {
+    color: #adb5bd !important;
+}
+
+.text-grey-600 {
+    color: #6c757d !important;
+}
+
+.text-grey-700 {
+    color: #495057 !important;
+}
+
+.text-grey-800 {
+    color: #343a40 !important;
+}
+
+.text-grey-900 {
+    color: #212529 !important;
+}
+
+// Bg Color
+
+.bg-neutral-100 {
+    background-color: white !important;
+}
+
+.bg-transparent {
+    background-color: transparent!important;
+}
+
+.bg-dark {
+    background-color: #343a40 !important;
+}
+
+.bg-grey {
+    background-color: #eee !important;
+}
+
+.bg-greylight {
+    background-color: #f5f5f5 !important;
+}
+
+.bg-orange {
+    background-color: #FE9431 !important;
+}
+
+.bg-lightblue {
+    background-color: #e8f1fa !important;
+}
+
+.bg-cyan {
+    background-color: #00a9a8 !important;
+}
+
+.bg-blue-gradiant {
+    background: linear-gradient(to right, #0575e6, #021b79) !important;
+}
+
+.bg-red-gradiant {
+    background: linear-gradient(to right, #e44d26, #f16529) !important;
+}
+
+.bg-gold-gradiant {
+    background: linear-gradient(to right, #f2994a, #f2c94c) !important;
+}
+
+.bg-mini-gradiant {
+    background: linear-gradient(to right, #ee0979, #ff6a00) !important;
+}
+
+.bg-primary-gradiant {
+    background: linear-gradient(135deg, $clr-theme, $clr-theme-shade) !important;
+}
+
+.bg-online {
+    background-color: #10d876 !important;
+}
+
+.bg-offline {
+    background-color: #E50202 !important;
+}
+
+.bg-recent {
+    background-color: #FE9431 !important;
+}
+
+// Font Size
+
+.font-xxl {
+    font-size: 2rem;
+}
+
+.font-xl {
+    font-size: 1.75rem;
+}
+
+.font-lg {
+    font-size: 1.5625rem;
+}
+
+.font-md {
+    font-size: 1.375rem;
+}
+
+.font-sm {
+    font-size: 1.25rem;
+}
+
+.font-xss {
+    font-size: 1rem;
+}
+
+.font-xsss {
+    font-size: .875rem;
+}
+
+.font-xssss {
+    font-size: .75rem;
+}
+
+.font-xsssss {
+    font-size: .625rem;
+}
+
+// Font Weight
+
+.fw-300 {
+    font-weight: 300;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+.fw-600 {
+    font-weight: 600;
+}
+.fw-700 {
+    font-weight: 700;
+}
+.fw-800 {
+    font-weight: 800;
+}
+
+// General
+.font-open {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.shadow-xs {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.03);
+}
+
+.shadow-xss {
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.05);
+}
+
+.nowrap {
+    white-space: nowrap;
+}

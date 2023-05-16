@@ -1,0 +1,60 @@
+.page-header__container {
+  @media (max-width: 36rem) {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: unset !important;
+  }
+}
+
+.page__form {
+  .form__search-wrapper {
+    width: 13rem;
+    height: 2.8125rem;
+
+    .fa-magnifying-glass {
+      color: #999;
+    }
+
+    & > * {
+      flex-grow: 1;
+      outline-color: transparent;
+    }
+  }
+
+  .sort-btn {
+    width: 2.8125rem;
+    height: 2.8125rem;
+  }
+}
+
+// Stories
+
+.stories-grid {
+  margin-inline: -8px;
+
+  .sg__story-inner {
+    height: 300px;
+  }
+
+  .sg__story-inner:before {
+    content: "";
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.01) 60%,
+      rgba(0, 0, 0, 0.9) 100%
+    );
+    width: 100%;
+    height: 250px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+  .story__sharer-pp {
+    @include rounded-icon(3.125rem);
+  }
+
+  .story__sharer-name {
+    letter-spacing: 1px;
+  }
+}
