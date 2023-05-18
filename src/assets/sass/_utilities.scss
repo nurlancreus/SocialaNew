@@ -180,6 +180,7 @@
 }
 
 // General
+
 .font-open {
     font-family: 'Open Sans', sans-serif;
 }
@@ -194,4 +195,8 @@
 
 .nowrap {
     white-space: nowrap;
+}
+
+.noresize {
+    resize: none;
 }
